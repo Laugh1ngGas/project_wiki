@@ -1,0 +1,6 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block body %}
+    <h2>Wiki</h2>
+    <form action="{% url 'search' %}" method="post"></form>
+{% endblock %}
